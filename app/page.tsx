@@ -70,7 +70,7 @@ export default function ChecklistApp() {
                       className="h-5 w-5 rounded-full border-gray-300"
                     />
                     <span
-                      className={f'text-base {"line-through text-gray-400" if item.done else "text-gray-800"}'}
+                      className={\`text-base \${item.done ? "line-through text-gray-400" : "text-gray-800"}\`}
                     >
                       {item.text}
                     </span>
