@@ -1,25 +1,22 @@
-# Checklist App
+# Checklist App (Apple-style)
 
-Apple-style minimalist checklist app built with:
-- Next.js
+This is a minimalist, Apple-inspired checklist app built with:
+
+- Next.js 14
 - Tailwind CSS
 - shadcn/ui
-- Framer Motion
 - Lucide React
+- Framer Motion
 
-## Getting Started
+## Local Setup
 
-### 1. Install dependencies
 ```bash
 npm install
-```
-
-### 2. Run development server
-```bash
 npm run dev
 ```
 
-### 3. Deploy to Vercel
-Connect this project to your Vercel account and deploy.
+## Deploy
 
-Enjoy your Apple-style checklist! 🍎
+1. Push to GitHub
+2. Connect to Vercel
+3. Import project and deploy 🚀
